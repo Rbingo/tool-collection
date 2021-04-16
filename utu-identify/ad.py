@@ -73,6 +73,10 @@ for x in strs:
 		m = re.findall("\d+", x)
 		arr['phone'] = m[0]
 		pass
+	if '手机' in x:
+		m = re.findall("\d+", x)
+		arr['phone'] = m[0]
+		pass
 	pass
 
 print(arr)
